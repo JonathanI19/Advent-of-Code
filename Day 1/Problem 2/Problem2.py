@@ -18,10 +18,10 @@ def main():
                 
         calories.append(sum(total))
     
-    print(max(calories))
+    calories.sort(reverse=True)
+    print(sum(calories[:3]))
+  
     
     
 if __name__ == "__main__":
     m = main()
-    
-   
